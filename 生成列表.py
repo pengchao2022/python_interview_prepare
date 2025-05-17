@@ -29,3 +29,4 @@ s4 = "I love China"
 list4 = s4.split(" ")
 
 print(list4)
+
