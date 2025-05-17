@@ -8,16 +8,16 @@ class Dog:
         print(f"this is {self.name}")
     
     def bite(self, person):
-        print(f"it can bite {person}")
+        print(f"{self.name} can bite {person}")
 
     def skill(self):
         print(f"{self.name} can pick up balls")
 
 dog1 = Dog()
 
-dog1.bite("tim ni")
-
 dog1.name = "niujin"
+
+dog1.bite("tim ni")
 
 dog1.bark()
 
