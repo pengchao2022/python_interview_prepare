@@ -5,13 +5,20 @@ class Dog:
 
     def bark(self):
         print("it can say words")
+        print(f"this is {self.name}")
     
     def bite(self, person):
         print(f"it can bite {person}")
 
     def skill(self):
-        print("it can pick up balls")
+        print(f"{self.name} can pick up balls")
 
 dog1 = Dog()
 
 dog1.bite("tim ni")
+
+dog1.name = "niujin"
+
+dog1.bark()
+
+dog1.skill()
