@@ -3,7 +3,9 @@ def bubble(mylist):
     #i 循环次数
     for i in range(0, len(mylist)-1):
         #j 列表的下标或索引
-        for j in range(0, len(mylist)-1):
+        #对程序进行优化使用-i 次， 当然不减i也可以
+        for j in range(0, len(mylist)-1-i):
+        
             if mylist[j] > mylist[j+1]:
                 #互换一下值 类似a,b = b,a
                 mylist[j],mylist[j+1] = mylist[j+1],mylist[j]
