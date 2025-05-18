@@ -22,6 +22,6 @@ r_sorted_list = sorted(my_new_list, reverse=True)
 
 print(f"按照降序排列的列表为：{r_sorted_list}")
 
-print(r_sorted_list(88))
+
 
 
