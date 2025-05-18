@@ -44,6 +44,7 @@ for i in info.get('girls'):
     
     #打印出字典里每个女孩的身高
     print(i.get('height'))
+
     
 
 
