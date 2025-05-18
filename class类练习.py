@@ -26,7 +26,7 @@ class Iphone(Ipad):
 
 iphone12 = Iphone('银色', 12000, 'China', 'Iphone12')
 
-print(iphone12.color, iphone12.price, iphone12.location)
+print(iphone12.color, iphone12.price, iphone12.location, iphone12.name)
 
 iphone12.play_game()
 
