@@ -1,0 +1,16 @@
+#找出两个列表里的相同元素和不同元素
+
+list1 = [6, 8, 9, 44, 7]
+
+list2 = [9, 44, 37, 28, 2]
+
+#将列表转换为集合set
+
+set1 = set(list1)
+set2 = set(list2)
+
+#打印相同元素
+print(set1 & set2)
+
+#打印不同元素
+print(set1 ^ set2)
