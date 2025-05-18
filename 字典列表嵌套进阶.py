@@ -36,7 +36,9 @@ print(resume_data["lianxifangshi"]["mobile-phone"])
 #获取邮箱
 print(resume_data["lianxifangshi"]["email"])
 
+#获取专业技能
 for i in resume_data.get("zhuanyejineng"):
     print(i)
-
+    
+#获取自我评价
 print(resume_data.get("ziwopingjia"))
