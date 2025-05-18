@@ -38,3 +38,5 @@ print(resume_data["lianxifangshi"]["email"])
 
 for i in resume_data.get("zhuanyejineng"):
     print(i)
+
+print(resume_data.get("ziwopingjia"))
