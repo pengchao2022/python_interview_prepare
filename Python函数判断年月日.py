@@ -1,3 +1,4 @@
+
 #使用python语言输入年月日，判断这一天是这一年中的第几天 
 
 import datetime
@@ -10,8 +11,6 @@ def day_of_year():
     date1 = datetime.date(year=year, month=month, day=day)
     date2 = datetime.date(year=year, month=1, day=1)
      
-    myday = (date1 - date2).days + 1
-    print(f"这是一年中的第{myday}天")
+    return (date1 - date2).days + 1
 
-while True:
-    day_of_year()
+print(f"这是一年中的第{day_of_year()}天")
