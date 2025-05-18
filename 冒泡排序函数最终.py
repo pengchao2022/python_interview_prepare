@@ -9,6 +9,8 @@ def bubble(mylist):
                 mylist[j],mylist[j+1] = mylist[j+1],mylist[j]
     print(mylist)
 
-mylist = [77, 98, 4, 6, 675, 1, 43, 29, 201]
+mylist1 = [77, 98, 4, 6, 675, 1, 43, 29, 201]
+mylist2 = [765, 331, 7, 65, 43, 2, 109, 1, 3]
 
-bubble(mylist)
+bubble(mylist1)
+bubble(mylist2)

@@ -8,6 +8,7 @@ def bubble(mylist):
 
 mylist = [66, 78, 4, 54, 43, 23, 7, 1]
 
+#需要调用 len(mylist) - 1 次才可以完成排序， 那么可以使用 for 循环len -1 次
 bubble(mylist)
 bubble(mylist)
 bubble(mylist)
