@@ -1,0 +1,24 @@
+#编写一个潘丹函数运行时间的装饰器
+import time
+def outer(fn):
+
+    def wrapper(*arg, **kwargs):
+        start = time.time()
+        #运行之后调用一次fn
+        ret = fn(*arg, **kwargs)
+        end = time.time()
+        print(end - start)
+        return ret
+    return wrapper
+
+@outer
+def test():
+    time.sleep(4)
+
+
+test()
+
+
+
+
+
