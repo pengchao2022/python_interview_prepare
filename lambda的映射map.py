@@ -7,3 +7,4 @@ str_numbers = list(map(lambda x: str(x), num_list))
 print(str_numbers)
 
 print(num_list)
+
