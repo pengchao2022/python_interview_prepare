@@ -15,6 +15,7 @@ sicifang = lambda z: z ** 4
 
 print(sicifang(2))
 
+#2的32 次方运算
 saner = lambda k: k ** 32
 
 print(saner(2))
