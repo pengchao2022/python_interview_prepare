@@ -6,6 +6,8 @@ while True:
     type_pass = str(input("请输入您的密码："))
     if type_name == user_name and type_pass == pass_word:
         print("恭喜您！登录成功！")
+        #登录成功跳出循环
+        break
     elif type_name == user_name and type_pass != pass_word:
         print("密码不正确")
     elif type_name != user_name and type_pass == pass_word:
