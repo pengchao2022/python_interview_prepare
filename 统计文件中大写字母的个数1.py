@@ -7,12 +7,12 @@ def count_uppercase_letter(file_path):
     
     '''
     try:
-        with open("file_path", "r", encoding='utf-8') as file:
+        with open(file_path, "r", encoding='utf-8') as file:
             #初始化计数器
             count = 0
             #逐行读取文件内容
             for line in file:
-                count += sum(a for char in line if char.isupper())
+                count += sum(1 for char in line if char.isupper())
             return count
         
     except FileExistsError:
