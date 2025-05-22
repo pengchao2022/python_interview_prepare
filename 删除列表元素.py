@@ -11,7 +11,7 @@ fruits = ['banana', 'orange', 'cherry', 'kiwi']
 
 #删除列表最后一个元素
 remove_fruit = fruits.pop()
-
+#删除列表最后一个元素
 remove1 = fruits.pop(-1)
 print(remove1)
 print(fruits)
